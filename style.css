@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cabecalho {
+    background-color: #BE89CB;
+    height: 103px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    padding-inline: 40px;
+}
+
+#perfil {
+    background-color: #EDEAEA;
+    height: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #FF4DBC;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h3 {
+    color: #C5C0C0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.minha-biografia {
+    font-size: 15px;
+    font-family: Abeezee;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    
+}
+
+img {
+    margin-top: 48px;
+    margin-bottom: 26px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #FF4DBC;
+    margin-bottom: 50px;
+    margin-left: 238px;
+    padding-top: 61px;
+}
+
+
+#formacao {
+    min-height: 500px;
+}
+
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    max-width: 750px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+}
+
+li {
+    padding-left: 32px;
+}
+
+.titulo-formacao {
+    font-size: 16px;
+    color: #828282;
+    font-weight: 700;
+   
+}
+
+.link-formacao {
+    color: #2F80ED;
+    font-size: 14px;
+    font-family: Abeezee;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.descricao-formacao {
+    font-size: 16px;
+    font-family: Abeezee;
+    margin-top: 8px;
+    margin-bottom: 53px;
+}
+
+#portfolio {
+    background-color: #EDEAEA;
+    min-height: 400px;
+}
+
+.titulo-projeto {
+    font-size: 16px;
+    color: #661E4B;
+    font-weight: 700;
+}
+
+.legenda-projeto {
+    font-size: 14px;
+    font-family: Abeezee;
+    margin-top: 8px;
+}
+
+.link-projeto {
+    color: #2F80ED;
+    font-size: 14px;
+    font-family: Abeezee;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    background: #BE89CB;
+    height: 198px;
+}
+
+.lista-rodape li{
+    color: #FFFFFF;
+    font-weight: 700;
+    
+}
+
+.lista-rodape li>i{
+    font-size: 28px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.links {
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+.container-rodape {
+    margin-left: 20px;
+   align-content: center;
+}
